@@ -25,3 +25,16 @@ git branch -M main  //push to github
 git push -u origin main
 (-u sets origin main as default so next time just type git  push)
 
+# 1. Make changes to your file in VSCode, then save
+
+# 2. Check what changed
+git status
+
+# 3. Stage the changes
+git add .
+
+# 4. Commit with a new message
+git commit -m "your second commit message"
+
+# 5. Push to GitHub
+git push

@@ -38,3 +38,7 @@ git commit -m "your second commit message"
 
 # 5. Push to GitHub
 git push
+
+
+git log (returns 40 digit hexadecimal string)
+displays the history of committed changes in a Git repository. It allows you to list, filter, and search for specific changes within the committed history.

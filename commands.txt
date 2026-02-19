@@ -1,5 +1,6 @@
 cd OneDrive
 cd foldername
+
 git init    // initialising repo
 touch filename.extension
 code . 
@@ -7,3 +8,20 @@ code .
 // write code
 
 git status 
+
+git add commands.txt       // stage the file, allow git to see
+or, git add . 
+
+git commit -m "initial commit: add first file"
+
+git remote add origin <url>
+(where origin is like a nickname for the github url)
+
+git remote - v  //checking if it worked
+
+git branch -M main  //push to github
+(renames branch to main -> main is the default branch of github)
+
+git push -u origin main
+(-u sets origin main as default so next time just type git  push)
+

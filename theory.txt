@@ -1,0 +1,18 @@
+GIT: distributed version controlling system, it is a software
+tracks changes of file among many people
+
+github: code hosting service
+
+configuring:
+git config --global user.name "username"
+git config --global user.email "myemailid"
+
+--global defines name and mail to all repos, otherwise only current repo
+
+Three Stage Architecture
+Working repository -> Staging -> Commit
+
+Doubt:
+SSH Keys
+
+git pull(action) origin master(branch name)

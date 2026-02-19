@@ -1,0 +1,9 @@
+cd OneDrive
+cd foldername
+git init    // initialising repo
+touch filename.extension
+code . 
+
+// write code
+
+git status 
